@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clean Money - E-book</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      color: white;
+      line-height: 1.6;
+      background: url('https://images.unsplash.com/photo-1639322537228-f510d9e7a17b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80') no-repeat center center/cover;
+      position: relative;
+      min-height: 100vh;
+    }
+
+    body::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.7);
+      z-index: 0;
+    }
+
+    header, section, footer {
+      position: relative;
+      z-index: 1;
+    }
+
+    header {
+      text-align: center;
+      padding: 4rem 2rem;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+      color: #22c55e;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      max-width: 600px;
+      margin: 0 auto;
+      opacity: 0.95;
+    }
+
+    .cta {
+      display: inline-block;
+      margin-top: 2rem;
+      padding: 1rem 2rem;
+      background: #22c55e;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+
+    .cta:hover {
+      background: #16a34a;
+    }
+
+    section {
+      max-width: 900px;
+      margin: 4rem auto;
+      padding: 2rem;
+      text-align: center;
+      background: rgba(15, 23, 42, 0.6);
+      border-radius: 12px;
+    }
+
+    section h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: #facc15;
+    }
+
+    section p {
+      font-size: 1.1rem;
+      opacity: 0.95;
+    }
+
+    .buy-btn {
+      display: inline-block;
+      margin-top: 2.5rem;
+      padding: 1.2rem 2.5rem;
+      background: #facc15;
+      color: #0f172a;
+      text-decoration: none;
+      border-radius: 10px;
+      font-size: 1.1rem;
+      font-weight: bold;
+      transition: all 0.3s;
+    }
+
+    .buy-btn:hover {
+      background: #eab308;
+      transform: scale(1.05);
+    }
+
+    .testimonials {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+
+    .testimonial {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 1.5rem;
+      border-radius: 10px;
+      font-size: 0.95rem;
+      font-style: italic;
+    }
+
+    .testimonial strong {
+      display: block;
+      margin-top: 1rem;
+      font-style: normal;
+      color: #22c55e;
+    }
+
+    .countdown {
+      font-size: 1.3rem;
+      font-weight: bold;
+      color: #f87171;
+      margin-top: 2rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background: rgba(0, 0, 0, 0.8);
+      font-size: 0.9rem;
+      opacity: 0.9;
+    }
+
+    .highlight {
+      font-weight: bold;
+      color: #22c55e;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Clean Money</h1>
+    <p>Descubra como transformar o seu tempo livre em uma fonte de renda.  
+    O nosso e-book exclusivo mostra passo a passo como conquistar liberdade financeira através da internet.</p>
+    <a href="https://wa.me/244956872579" class="cta">💬 WhatsApp</a>
+  </header>
+
+  <section>
+    <h2>Como ganhar dinheiro em Angola e fazer milhões</h2>
+    <p>
+      O <span class="highlight">mercado digital em Angola</span> está em crescimento acelerado.  
+      Mas poucos sabem como aproveitar as oportunidades certas.  
+      Neste e-book revelamos <span class="highlight">estratégias práticas</span> para você sair do zero e construir uma renda real.  
+    </p>
+    <p>
+      Não importa se você tem experiência ou não — basta aplicar os métodos para ver resultados.  
+      Se já pensou em <span class="highlight">viver da internet</span>, este é o seu momento.
+    </p>
+
+    <!-- Botão de Compra -->
+    <a href="https://pay.kuenha.com/0679b2df-ad6d-48d5-91ef-665ed498d01e" target="_blank" class="buy-btn">
+      🛒 Compre agora o seu manual
+    </a>
+
+    <!-- Contador Regressivo -->
+    <div class="countdown" id="countdown">
+      Oferta expira em: 5d 12h 30m 45s
+    </div>
+  </section>
+
+  <!-- Depoimentos -->
+  <section>
+    <h2>O que dizem os leitores</h2>
+    <div class="testimonials">
+      <div class="testimonial">
+        “Esse manual mudou a minha visão sobre negócios online. Já estou aplicando as estratégias e vendo resultados.”
+        <strong>— João A.</strong>
+      </div>
+      <div class="testimonial">
+        “Sempre achei difícil ganhar dinheiro na internet, mas aqui encontrei um guia claro e direto. Vale cada centavo!”
+        <strong>— Maria K.</strong>
+      </div>
+      <div class="testimonial">
+        “Em poucas semanas consegui minha primeira renda extra. Recomendo para quem realmente quer crescer financeiramente.”
+        <strong>— Carlos M.</strong>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    📞 Contato: +244 956 872 579  
+    <br>
+    © 2025 Clean Money. Todos os direitos reservados.
+  </footer>
+
+  <!-- Script do Contador -->
+  <script>
+    function startCountdown() {
+      let deadline = new Date().getTime() + (5 * 24 * 60 * 60 * 1000);
+
+      const timer = setInterval(() => {
+        const now = new Date().getTime();
+        let t = deadline - now;
+
+        if (t < 0) {
+          // Reinicia para mais 5 dias
+          deadline = new Date().getTime() + (5 * 24 * 60 * 60 * 1000);
+          t = deadline - now;
+        }
+
+        const days = Math.floor(t / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((t % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        const minutes = Math.floor((t % (1000 * 60 * 60)) / (1000 * 60));
+        const seconds = Math.floor((t % (1000 * 60)) / 1000);
+
+        document.getElementById("countdown").innerHTML =
+          "Oferta expira em: " + days + "d " + hours + "h " + minutes + "m " + seconds + "s";
+      }, 1000);
+    }
+
+    startCountdown();
+  </script>
+</body>
+</html>
